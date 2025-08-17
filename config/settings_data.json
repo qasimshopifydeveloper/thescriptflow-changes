@@ -632,6 +632,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "#header {background: red;}"
+    ]
   }
 }
