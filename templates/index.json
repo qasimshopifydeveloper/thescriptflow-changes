@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "hero_jVaWmY": {
       "type": "hero",
@@ -61,6 +62,7 @@
       "settings": {
         "media_type_1": "image",
         "media_type_2": "image",
+        "link": "",
         "open_in_new_tab": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -277,10 +279,63 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "newsection_4G3gPX": {
+      "type": "newsection",
+      "blocks": {
+        "card_VWTF6W": {
+          "type": "card",
+          "settings": {
+            "label": "vape/smoke after 30 minutes of waking up?",
+            "highlight": "after 30 minutes",
+            "body": "Try the 2mg. Expect to use ~10 pieces a day for the first weeks."
+          }
+        },
+        "card_iLRfm3": {
+          "type": "card",
+          "settings": {
+            "label": "vape/smoke within 30 minutes of waking up?",
+            "highlight": "within 30 minutes",
+            "body": "Try the 4mg. You have a higher dependency level and need a stronger dose."
+          }
+        }
+      },
+      "block_order": [
+        "card_VWTF6W",
+        "card_iLRfm3"
+      ],
+      "name": "SK Nicotine Quiz",
+      "settings": {
+        "section_layout": "layout1",
+        "content_width": "1600",
+        "heading": "should I take",
+        "highlight": "2mg or 4mg?",
+        "card_bg": "#111111",
+        "card_radius": 10,
+        "card_border_thickness": 0,
+        "card_border_color": "#333333",
+        "card_shadow": false,
+        "gap_desktop": 1.5,
+        "gap_tablet": 1,
+        "background_color": "#000000",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_thickness": 0,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "padding_horizontal": 5,
+        "padding_top_mobile": 1.5,
+        "padding_bottom_mobile": 1.5,
+        "padding_horizontal_mobile": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
     "hero_jVaWmY",
-    "product_list_fa6P9H"
+    "product_list_fa6P9H",
+    "newsection_4G3gPX"
   ]
 }
