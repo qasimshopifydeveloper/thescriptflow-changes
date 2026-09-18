@@ -76,6 +76,18 @@
     "variant_button_radius": 14,
     "variant_button_width": "equal-width-buttons",
     "content_for_index": [],
+    "blocks": {
+      "13781613922167914444": {
+        "type": "shopify://apps/elevio-trust-badges-icons/blocks/trust-badges-embed/019bc140-45f7-7adf-aa69-89154b96df7b",
+        "disabled": true,
+        "settings": {}
+      },
+      "14825746485090266979": {
+        "type": "shopify://apps/sa-trust-badges/blocks/app_embed/019fb2da-11da-72f0-ae02-fec6184dbd9c",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
